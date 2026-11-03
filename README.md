@@ -28,6 +28,7 @@ KaTeX 的 MIT 授權保留於 dist/vendor/katex/LICENSE，使用方式見 https:
 
 ## 專案結構
 
+```text
 Math-learning-notes/
 ├── README.md                   專案介紹、操作說明與部署步驟
 ├── AGENTS.md                   AI 開發協作規則與筆記內容格式
@@ -46,6 +47,7 @@ Math-learning-notes/
 │       └── katex/              LaTeX 數學公式排版程式、字型與授權
 └── scripts/
     └── check.mjs               檢查筆記格式、文章 ID、測驗與公式語法
+```
 
 ## 開發協作
 ChatGPT：協助修改與開發。
