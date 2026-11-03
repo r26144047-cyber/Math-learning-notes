@@ -1,0 +1,20 @@
+// 將以下物件填妥後加入 notes.js 的 NOTES 陣列，物件之間以逗號分隔。
+{
+  id: "your-topic",
+  title: "筆記標題",
+  summary: "一句話摘要",
+  category: "微積分",
+  date: "2026-11-03",
+  minutes: 5,
+  goals: ["目標一", "目標二"],
+  points: [
+    { title: "01 / 重點一", text: "公式範例：\\(\\lim_{x\\to0}x=0\\)。" },
+    { title: "02 / 重點二", text: "說明" },
+    { title: "03 / 重點三", text: "說明" }
+  ],
+  quiz: [
+    { question: "問題一", options: ["選項一", "選項二", "選項三"], answer: 0, explanation: "解析" },
+    { question: "問題二", options: ["選項一", "選項二", "選項三"], answer: 1, explanation: "解析" }
+  ],
+  sources: [{ label: "參考來源名稱", url: "https://example.com" }]
+}
